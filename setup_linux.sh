@@ -1,6 +1,6 @@
 
 #!/bin/bash
-sudo apt install -y git build-essential openssh-server ffmpeg locate gstreamer1.0-plugins-bad gstreamer1.0-libav net-tools wireshark-qt pipenv xterm autoconf libtool texinfo zlib1g:i386 libncurses5-dev docker.io
+sudo apt install -y git build-essential openssh-server ffmpeg locate gstreamer1.0-plugins-bad gstreamer1.0-libav net-tools wireshark-qt pipenv xterm autoconf libtool texinfo zlib1g:i386 libncurses5-dev docker.io i3
 
 if [[ $1 == "cuda" ]]; then
   echo "Install NVidia drivers and cuda"
